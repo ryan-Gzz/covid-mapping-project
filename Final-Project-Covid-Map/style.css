@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #242426;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-left: 30px;
+}
+
+p {
+	color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+table {
+	padding-bottom: 20px;
+}
+
+.canvas {
+	padding-left: 30px;
+}
+
+#table {
+	color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#circle {
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+
+#confirmed {
+	color: #ffa02b;
+}
+
+#recovered {
+	color: #00ff11;
+}
+
+#deaths {
+	color: #f50035;
+}
